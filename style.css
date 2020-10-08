@@ -42,9 +42,9 @@ body{
 
 input[type="text"]{
     width: 100%;
-    background: none;
+    background: white;
     border: solid 1px #8C6B64;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 6px 15px;
     color: #172126;
 
@@ -53,9 +53,9 @@ input[type="text"]{
 input[type="password"]{
     border: 0;
     width: 100%;
-    background: none;
+    background: white;
     border: solid 1px #8C6B64;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 6px 15px;
     color: #172126;
 
@@ -63,9 +63,9 @@ input[type="password"]{
 
 input[type="email"]{
     width: 100%;
-    background: none;
+    background: white;
     border: solid 1px #8C6B64;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 6px 15px;
     color: #172126;
 
@@ -82,18 +82,18 @@ input[type="radio"]{
 
 select[class="seleccion"]{
     width: 116%;
-    background: #D4D9AD;
+    background: white;
     border: solid 1px #8C6B64;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 6px 15px;
     color: #172126;
 }
 
 input[type="tel"]{
     width: 100%;
-    background: none;
+    background: white;
     border: solid 1px #8C6B64;
-    border-radius: 3px;
+    border-radius: 10px;
     padding: 6px 15px;
     color: #172126;
 }
