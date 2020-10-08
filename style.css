@@ -1,0 +1,122 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #2D5938;
+    color: #D4D9AD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.formulario{
+    background: #D4D9AD;
+    color: #172126;
+    width: 400px;
+    border-radius: 15px;
+    padding: 30px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.label{
+    font-weight: 800;
+    font-size: 12px;
+}
+
+.field{
+    margin-bottom: 15px;
+}
+
+.formulario h2{
+    margin: 30px 0;
+    text-transform: uppercase;
+    font-size: 18px;
+    text-align: center;
+    color: #2D5938;
+}
+
+input[type="text"]{
+    width: 100%;
+    background: none;
+    border: solid 1px #8C6B64;
+    border-radius: 3px;
+    padding: 6px 15px;
+    color: #172126;
+
+}
+
+input[type="password"]{
+    border: 0;
+    width: 100%;
+    background: none;
+    border: solid 1px #8C6B64;
+    border-radius: 3px;
+    padding: 6px 15px;
+    color: #172126;
+
+}
+
+input[type="email"]{
+    width: 100%;
+    background: none;
+    border: solid 1px #8C6B64;
+    border-radius: 3px;
+    padding: 6px 15px;
+    color: #172126;
+
+}
+
+.radio{
+    font-size: 12px;
+}
+
+input[type="radio"]{
+    padding:6px;
+    box-sizing: border-box;
+}
+
+select[class="seleccion"]{
+    width: 116%;
+    background: #D4D9AD;
+    border: solid 1px #8C6B64;
+    border-radius: 3px;
+    padding: 6px 15px;
+    color: #172126;
+}
+
+input[type="tel"]{
+    width: 100%;
+    background: none;
+    border: solid 1px #8C6B64;
+    border-radius: 3px;
+    padding: 6px 15px;
+    color: #172126;
+}
+
+input[type="submit"]{
+    width: 100%;
+    background: #6C8C54;
+    border: solid 1px #6C8C54;
+    border-radius: 5px;
+    padding: 10px;
+    color: #D4D9AD;
+    text-align: center;
+    margin: 15px 10%;
+}
+
+input[type="submit"]:hover{
+    background: none;
+    border: solid 1px #6C8C54;
+    color: #6C8C54;
+    font-weight: bold;
+    transform: .50s;
+}
+
+/* ::placeholder{
+    color: red;
+} */
